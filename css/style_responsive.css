@@ -1,0 +1,731 @@
+@charset "utf-8";
+/* portfolio name : consultancy */
+/* design by sanjib on 04.07.2016 */
+
+@media screen and (max-width : 320px) {
+/*.....................home page start........................*/
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+.header_wrapper .logo {
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.header_wrapper .main_nav {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main_nav .navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav.navbar-nav.sm-collapsible {
+    height: 230px;
+    overflow: auto;
+}
+.navbar-nav > li {
+    float: none;
+    margin: 0;
+    padding: 3px 0px;
+    width: 100%;
+	text-align:left;
+}
+.navbar-nav > li > a {
+    border-bottom: 0px solid transparent;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+	font-family: "Tahoma",serif;
+	text-transform:uppercase;
+}
+.navbar-nav > li.active a {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f78f20;
+}
+.navbar-nav > li > a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f78f20;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+    padding: 10px 15px;
+	background:transparent;
+	font-family: "Tahoma",serif;
+	text-transform:uppercase;
+}
+.navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-image: none;
+	color:#f78f20;
+	background:#f7f7f7;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #f7f7f7;
+    border-color: #eeaf06;
+    color: #000;
+}
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #f78f20 ;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: -40px;
+    padding: 9px 10px;
+    position: relative;
+}
+.navbar-toggle .icon-bar {
+    background:#f78f20 ;
+    border-radius: 0px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_wrapper .carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*search-tab section start*/
+.search_wrapper{
+	display:none;	
+}
+.search_tab_wrapper{
+	width:100%;
+	padding:0px;
+	margin:30px 0px;
+	float:left;	
+	font-family: 'sansationregular';
+	display:block;
+}
+.search_tab_wrapper .search_tab_wrap{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .nav-pills{
+	border-bottom:2px solid #f78f20;
+}
+.search_tab_wrap .nav > li > a {
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    padding: 10px 3px;
+    position: relative;
+	color:#000;
+	border:1px solid #f78f20;
+}
+.search_tab_wrap .nav > li > a > i {
+	font-size:16px;
+	margin-right:10px;	
+}
+.search_tab_wrap .nav-pills > li.active > a, .search_tab_wrap .nav-pills > li.active > a:focus, .search_tab_wrap .nav-pills > li.active > a:hover {
+    background-color: #f78f20;
+    color: #fff;
+}
+.search_tab_wrap .nav > li > a:focus, .search_tab_wrap .nav > li > a:hover {
+    background-color: #f78f20;
+    color: #fff;
+}
+.search_tab_wrap .tab-content {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    float: left;
+    margin:0px;
+    padding: 20px;
+    width: 100%;
+}
+.search_tab_wrap .tab-content h6{
+	font-size:20px;
+	padding:0px;
+	margin:0px 0px 20px;
+	text-align:left;
+	color:#000 ;	
+	line-height:30px;
+}
+.search_tab_wrap .tab-content .form_wrap{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .form_wrap {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .input-group-addon { cursor: pointer;}
+.search_tab_wrap .form_wrap .btn-default {
+    background-color: #f78f20;
+    border-color: #f78f20;
+    color: #000;
+	padding:10px 16px;
+	margin:0px;
+	font-size:14px;
+}
+/*search-tab section end*/
+
+/*footer section start*/
+.footer_box ul li {
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 4px;
+    width: 100%;
+}
+/*footer section end*/
+/*.....................home page start........................*/	
+
+/*.....................search page start........................*/	
+.modify_wrap .form-group {
+    display: inline-block;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    width: 100%;
+}
+/*.....................search page end........................*/	
+}
+
+@media screen and (min-width: 321px) and (max-width: 479px) { 
+/*.....................home page start........................*/
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+.header_wrapper .logo {
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.header_wrapper .main_nav {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main_nav .navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav.navbar-nav.sm-collapsible {
+    height: 325px;
+    overflow: auto;
+}
+.navbar-nav > li {
+    float: none;
+    margin: 0;
+    padding: 3px 0px;
+    width: 100%;
+	text-align:left;
+}
+.navbar-nav > li > a {
+    border-bottom: 0px solid transparent;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+	text-transform:uppercase;
+}
+.navbar-nav > li.active a {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav > li > a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+    padding: 10px 15px;
+	background:transparent;
+	text-transform:uppercase;
+}
+.navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-image: none;
+	color:#f6a42d;
+	background:#f7f7f7;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #f7f7f7;
+    border-color: #eeaf06;
+    color: #000;
+}
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #f6a42d ;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: -40px;
+    padding: 9px 10px;
+    position: relative;
+}
+.navbar-toggle .icon-bar {
+    background:#f6a42d ;
+    border-radius: 0px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_wrapper .carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*search-tab section start*/
+.search_wrapper{
+	display:none;	
+}
+.search_tab_wrapper{
+	width:100%;
+	padding:0px;
+	margin:30px 0px;
+	float:left;	
+	font-family: 'sansationregular';
+	display:block;
+}
+.search_tab_wrapper .search_tab_wrap{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .nav-pills{
+	border-bottom:2px solid #f78f20;
+}
+.search_tab_wrap .nav > li > a {
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    padding: 10px 3px;
+    position: relative;
+	color:#000;
+	border:1px solid #f78f20;
+}
+.search_tab_wrap .nav > li > a > i {
+	font-size:16px;
+	margin-right:10px;	
+}
+.search_tab_wrap .nav-pills > li.active > a, .search_tab_wrap .nav-pills > li.active > a:focus, .search_tab_wrap .nav-pills > li.active > a:hover {
+    background-color: #f78f20;
+    color: #fff;
+}
+.search_tab_wrap .nav > li > a:focus, .search_tab_wrap .nav > li > a:hover {
+    background-color: #f78f20;
+    color: #fff;
+}
+.search_tab_wrap .tab-content {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    float: left;
+    margin:0px;
+    padding: 20px;
+    width: 100%;
+}
+.search_tab_wrap .tab-content h6{
+	font-size:20px;
+	padding:0px;
+	margin:0px 0px 20px;
+	text-align:left;
+	color:#000 ;	
+	line-height:30px;
+}
+.search_tab_wrap .tab-content .form_wrap{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .form_wrap {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .input-group-addon { cursor: pointer;}
+.search_tab_wrap .form_wrap .btn-default {
+    background-color: #f78f20;
+    border-color: #f78f20;
+    color: #000;
+	padding:10px 16px;
+	margin:0px;
+	font-size:14px;
+}
+/*search-tab section end*/
+
+/*footer section start*/
+.footer_box ul li {
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 4px;
+    width: 100%;
+}
+/*footer section end*/
+/*.....................home page start........................*/
+
+/*.....................search page start........................*/	
+.modify_wrap .form-group {
+    display: inline-block;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    width: 100%;
+}
+/*.....................search page end........................*/	
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) { 
+/*.....................home page start........................*/
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+}
+.header_wrapper .logo {
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.header_wrapper .main_nav {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main_nav .navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav.navbar-nav.sm-collapsible {
+    height: 325px;
+    overflow: auto;
+}
+.navbar-nav > li {
+    float: none;
+    margin: 0;
+    padding: 3px 0px;
+    width: 100%;
+	text-align:left;
+}
+.navbar-nav > li > a {
+    border-bottom: 0px solid transparent;
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+	text-transform:uppercase;
+}
+.navbar-nav > li.active a {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav > li > a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+	border-bottom:none;
+	color:#f6a42d;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+    padding: 10px 15px;
+	background:transparent;
+	text-transform:uppercase;
+}
+.navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-image: none;
+	color:#f6a42d;
+	background:#f7f7f7;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #f7f7f7;
+    border-color: #eeaf06;
+    color: #000;
+}
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #f6a42d ;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: -40px;
+    padding: 9px 10px;
+    position: relative;
+}
+.navbar-toggle .icon-bar {
+    background:#f6a42d ;
+    border-radius: 0px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+/*header section end*/
+
+/*banner section start*/
+.banner_wrapper .carousel-caption{
+	display:none;	
+}
+/*banner section end*/
+
+/*search-tab section start*/
+.search_wrapper{
+	display:none;	
+}
+.search_tab_wrapper{
+	width:100%;
+	padding:0px;
+	margin:30px 0px;
+	float:left;	
+	font-family: 'sansationregular';
+	display:block;
+}
+.search_tab_wrapper .search_tab_wrap{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .nav-pills{
+	border-bottom:2px solid #f78f20;
+}
+.search_tab_wrap .nav > li > a {
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    padding: 10px 23px;
+    position: relative;
+	color:#000;
+	border:1px solid #f78f20;
+}
+.search_tab_wrap .nav > li > a > i {
+	font-size:16px;
+	margin-right:10px;	
+}
+.search_tab_wrap .nav-pills > li.active > a, .search_tab_wrap .nav-pills > li.active > a:focus, .search_tab_wrap .nav-pills > li.active > a:hover {
+    background-color: #f78f20;
+    color: #fff;
+}
+.search_tab_wrap .nav > li > a:focus, .search_tab_wrap .nav > li > a:hover {
+    background-color: #f78f20;
+    color: #fff;
+}
+.search_tab_wrap .tab-content {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    float: left;
+    margin:0px;
+    padding: 20px;
+    width: 100%;
+}
+.search_tab_wrap .tab-content h6{
+	font-size:20px;
+	padding:0px;
+	margin:0px 0px 20px;
+	text-align:left;
+	color:#000 ;	
+	line-height:30px;
+}
+.search_tab_wrap .tab-content .form_wrap{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .form_wrap {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+.search_tab_wrap .input-group-addon { cursor: pointer;}
+.search_tab_wrap .form_wrap .btn-default {
+    background-color: #f78f20;
+    border-color: #f78f20;
+    color: #000;
+	padding:10px 16px;
+	margin:0px;
+	font-size:14px;
+}
+/*search-tab section end*/
+
+/*footer section start*/
+.footer_box ul li {
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 4px;
+    width: 100%;
+}
+/*footer section end*/
+
+/*.....................home page start........................*/
+
+/*.....................search page start........................*/	
+.modify_wrap .form-group {
+    display: inline-block;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    width: 100%;
+}
+/*.....................search page end........................*/	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+/*.....................home page start........................*/
+/*top-header section start*/
+.top_right ul li a {
+    color: #989798;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+/*top-header section end*/
+
+/*header section start*/
+.header_wrapper .logo img {
+    margin: 0;
+    padding: 0;
+    width: 43%;
+}
+.header_wrapper .main_nav {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navbar-nav > li {
+    display: inline-block;
+    margin: 0;
+    padding-right: 15px;
+    width: auto;
+}
+.navbar-nav > li > a {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 10px;
+    text-transform: uppercase;
+}
+/*header section end*/
+
+/*banner section start*/
+.search_wrapper .search_wrap {
+    float: right;
+    margin:10px 10px 0px 0px;
+    padding:0px;
+    width: 70%;
+}
+.search_wrap .nav > li > a {
+    border: 1px solid #f78f20;
+    border-radius: 0;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    padding: 10px 31px;
+    position: relative;
+}
+.search_wrap .tab-content {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 10px 20px;
+    width: 100%;
+}
+.tab-content h6 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: left;
+}
+.form_wrap .f2 {
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 1%;
+    width: 48%;
+}
+/*banner section end*/
+
+/*footer section start*/
+.footer_box ul li {
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding-right: 20px;
+}
+/*footer section end*/
+/*.....................home page end........................*/
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+/*.....................home page start........................*/
+/*banner section start*/
+.search_wrapper .search_wrap {
+    float: right;
+    margin: 30px 100px 0 0;
+    padding: 0;
+    width: 50%;
+}
+.search_wrap .nav > li > a {
+    border: 1px solid #f78f20;
+    border-radius: 0;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    padding: 10px 28px;
+    position: relative;
+}
+/*bane\ner section end*/
+
+/*.....................home page end........................*/
+}

@@ -1,0 +1,105 @@
+/* Included color classes.. 
+	.red 
+	.blue 
+	.yellow 
+	.green
+	.orange
+	.navy
+*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip1136 {
+  color: #fff;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin:0px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+figure.snip1136 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1136 img {
+  opacity: 1;
+  width: 100%;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip1136 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure.snip1136 figcaption > div {
+  height: 50%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+figure.snip1136 h2,
+figure.snip1136 p {
+  margin: 0;
+  opacity: 0;
+  padding: 0 30px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
+  transition: opacity 0.4s,-webkit-transform 0.4s,-moz-transform 0.4s,-o-transform 0.4s,transform 0.4s;
+}
+figure.snip1136 h2 {
+  display: inline-block;
+  font-weight: 800;
+  text-transform: uppercase;
+  bottom: 0;
+  -webkit-transform: translate3d(0%, 150%, 0) rotate(20deg);
+  transform: translate3d(0%, 150%, 0) rotate(20deg);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  font-size:24px;
+}
+figure.snip1136 p {
+  -webkit-transform: translate3d(0%, -150%, 0) rotate(20deg);
+  transform: translate3d(0%, -150%, 0) rotate(20deg);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  font-size:14px;
+}
+figure.snip1136 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  color: #ffffff;
+}
+figure.snip1136.color {
+  background-color:rgba(0,0,0,0.5);
+}
+
+figure.snip1136:hover img,
+figure.snip1136.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+figure.snip1136:hover figcaption h2,
+figure.snip1136.hover figcaption h2,
+figure.snip1136:hover figcaption p,
+figure.snip1136.hover figcaption p {
+  -webkit-transform: translate3d(0%, 0%, 0) rotate(0deg);
+  transform: translate3d(0%, 0%, 0) rotate(0deg);
+}
+figure.snip1136:hover figcaption h2,
+figure.snip1136.hover figcaption h2 {
+  opacity: 1;
+}
+figure.snip1136:hover figcaption p,
+figure.snip1136.hover figcaption p {
+  opacity: 1;
+}
+
